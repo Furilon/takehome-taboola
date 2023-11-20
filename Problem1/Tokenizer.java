@@ -18,7 +18,7 @@ public class Tokenizer {
 
     void expect(char c) {
         if (peek() != c) {
-            throw new RuntimeException("Expected '" + c + "' but found '" + peek() + "'");
+            throw new RuntimeException("Expected: '" + c + "'; Actual: '" + peek() + "'");
         }
         pos++;
     }

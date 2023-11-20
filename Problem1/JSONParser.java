@@ -55,7 +55,7 @@ public class JSONParser {
 
             tokenizer.skipWhitespaces();
             if (tokenizer.peek() == ',') {
-                tokenizer.next(); // consume ','
+                tokenizer.next();
                 tokenizer.skipWhitespaces();
             } else {
                 break;
@@ -77,7 +77,7 @@ public class JSONParser {
 
             tokenizer.skipWhitespaces();
             if (tokenizer.peek() == ',') {
-                tokenizer.next(); // consume ','
+                tokenizer.next();
                 tokenizer.skipWhitespaces();
             } else {
                 break;
